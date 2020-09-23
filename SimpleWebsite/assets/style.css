@@ -1,0 +1,53 @@
+/*For the most part bootstrap is doing most of the CSS on this website with only minimal aesthitic touches being handled in this CSS*/
+
+
+/*This container will affect all elements of the webpage.*/
+#container{
+    position: relative;
+}
+
+
+/*Format of the Nav at the top of the page*/
+nav {
+    background-color: slategray;
+    width: 100%;
+}
+
+/*Foramt for the about me page text*/
+article {
+    background-color: white;
+
+}
+
+/*Format for all images on the site. Will need to be changed with added site complexity*/
+img {
+    float: left;
+    margin: 8px;
+}
+
+
+/*Format for the sub titles of the page headers*/
+h2 {
+    color: white;
+    background-color: slategrey;
+    margin: 0px;
+    text-align: center;
+}
+
+/*Format for the text of the About Me section of the website*/
+p {
+    margin: 2px;
+}
+
+/*Format for the footer at the bottom of the website*/
+#footer {
+    padding-top: 2px;
+    color: lightslategray;
+    text-align: center;
+
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: slategrey;
+}
